@@ -1,0 +1,52 @@
+# Node.js / Next.js
+node_modules/
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/.env*.local
+
+# Python / Virtualenv
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+backend/__pycache__/
+backend/*/__pycache__/
+backend/*/*/__pycache__/
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+# Qdrant & Temp artifacts
+backend/qdrant_data/
+
+qdrant_data/
+nitrous_artifacts/
+*.log
+
+# Maven & Java
+target/
+backend/target/
+*.class
+artifacts/
+backend/artifacts/
+*.jar
+!backend/.mvn/wrapper/maven-wrapper.jar
+
+# OS / Editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
+*.tsbuildinfo
+.~lock.*#
+~$*
+
